@@ -8,6 +8,7 @@
   --green: #14504D;
   --lightgreen: #E2FFEA;
   --purple: #B5B1E5;
+  font-size: 21px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -21,4 +22,24 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 3.815rem;
+}
+
+h2 {
+  font-size: 1.953rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+small {
+  font-size: 0.8rem;
 }
