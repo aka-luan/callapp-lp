@@ -25,6 +25,10 @@ module.exports = {
       fontFamily: {
         sans: ['Lexend', 'sans-serif'],
       },
+     
+    },
+    container: {
+      padding: "140px"
     },
   },
   plugins: [],
