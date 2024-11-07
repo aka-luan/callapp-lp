@@ -15,7 +15,7 @@ export default function Header() {
         </a>
 
         <nav className='flex items-center'>
-          <ul className='flex items-center gap-8 h-8'>
+          <ul className='flex items-center gap-6 h-8'>
             <li>
               <a href='#product' className='hover:border-b-2 border-lightgreen pb-1'>Product</a>
             </li>
