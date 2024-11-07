@@ -4,7 +4,7 @@ import Button from './Button';
 export default function Header() {
   return (
     <header className='bg-green text-lightgreen text-sm'>
-      <div className='flex container mx-auto justify-between'>
+      <div className='flex px-12 justify-between'>
         <a href='#'>
           <Image
             src='/logo.svg'
@@ -30,7 +30,7 @@ export default function Header() {
               <a href='#contact' className='hover:border-b-2 border-lightgreen pb-1'>Log In</a>
             </li>
             <li>
-              <Button isNav={true}>Try it Free</Button>
+              <Button type={'secondary1'} isNav={true}>Try it Free</Button>
             </li>
           </ul>
         </nav>

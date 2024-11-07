@@ -7,7 +7,7 @@
   --foreground: #242424;
   --green: #14504D;
   --lightgreen: #E2FFEA;
-  --purple: #B5B1E5;
+  --purple: #CAC5FF;
   font-size: 21px;
 }
 
@@ -31,6 +31,7 @@ h1 {
 }
 
 h2 {
+  line-height: 55px;
   font-size: 1.953rem;
 }
 
