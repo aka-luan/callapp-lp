@@ -12,7 +12,7 @@ export default function Home() {
             <div id='hero-text' className='flex flex-col'>
               <span className='h-[2px] w-16 bg-lightgreen opacity-60 mb-7'></span>
               <h1 className='mb-7 font-medium'>
-                Have your<br></br> best chat
+                Have your<br></br> best <span className='text-purple'>chat</span>
               </h1>
               <p className='mb-14 font-light'>
                 Fast, easy & unlimited team chats.
@@ -42,7 +42,7 @@ export default function Home() {
             />
           </div>
         </section>
-        <section id='cta' className='py-40 bg-lightgreen text-foreground flex'>
+        <section id='cta' className='py-40 px-12 bg-lightgreen text-foreground flex'>
           <Image
             src='/cta-img.png'
             width={705}
