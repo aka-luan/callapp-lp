@@ -4,7 +4,7 @@ import Button from './Button';
 export default function Header() {
   return (
     <header className='bg-green text-lightgreen text-sm'>
-      <div className='flex container mx-auto justify-between'>
+      <div className='flex px-12 justify-between'>
         <a href='#'>
           <Image
             src='/logo.svg'
