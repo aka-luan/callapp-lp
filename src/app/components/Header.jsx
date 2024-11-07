@@ -30,7 +30,7 @@ export default function Header() {
               <a href='#contact' className='hover:border-b-2 border-lightgreen pb-1'>Log In</a>
             </li>
             <li>
-              <Button isNav={true}>Try it Free</Button>
+              <Button type={'secondary1'} isNav={true}>Try it Free</Button>
             </li>
           </ul>
         </nav>
