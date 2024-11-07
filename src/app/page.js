@@ -18,8 +18,8 @@ export default function Home() {
                 Fast, easy & unlimited team chats.
               </p>
               <div className='flex gap-7'>
-                <Button type={'primary'}>Try it Free</Button>
-                <Button>Get a Demo</Button>
+                <Button type={'primary1'}>Try it Free</Button>
+                <Button type={'secondary1'}>Get a Demo</Button>
               </div>
             </div>
           </div>
@@ -40,6 +40,24 @@ export default function Home() {
               height={917}
               alt='chatapp interface, showing a conversation between two friends on the center and all other messages on the left'
             />
+          </div>
+        </section>
+        <section id='cta' className='py-40 bg-lightgreen text-foreground flex'>
+          <Image
+            src='/cta-img.png'
+            width={705}
+            height={734}
+            alt='two mans talking in an modern office with some people in the background working and talking'
+          />
+          <div className='flex container flex-col justify-center'>
+            <h2 className='mb-5 font-medium'>Perfect Solution for <br></br>Small Businesses</h2>
+            <p className='mb-14 font-light w-1/2 '>
+              Pricing plans that fit like a glove.
+            </p>
+            <div className='flex gap-7'>
+                <Button type={'primary2'}>Try it Free</Button>
+                <Button type={'secondary2'}>Get a Demo</Button>
+              </div>
           </div>
         </section>
       </main>
