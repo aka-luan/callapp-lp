@@ -28,7 +28,10 @@ module.exports = {
      
     },
     container: {
-      padding: "140px"
+      padding: {
+        DEFAULT: '1rem',
+        xl: '5rem'
+      },
     },
   },
   plugins: [],
