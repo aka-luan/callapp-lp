@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Button from './components/Button';
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 export default function Home() {
   return (
@@ -24,7 +25,7 @@ export default function Home() {
               </div>
             </div>
             <div id='hero-img flex-1'>
-              <Image src='/Hero Images.png' width={600} height={600} />
+              <Image src='/hero-img.png' width={600} height={600} />
             </div>
           </div>
         </section>
@@ -82,6 +83,8 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <Footer
+        />
       </main>
     </div>
   );
