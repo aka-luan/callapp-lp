@@ -1,6 +1,10 @@
 import localFont from "next/font/local";
 import "./globals.css";
 
+import { config } from '@fortawesome/fontawesome-svg-core'
+import '@fortawesome/fontawesome-svg-core/styles.css'
+config.autoAddCss = false
+
 const lexend = localFont({
   src: "./fonts/Lexend-VariableFont_wght.ttf",
   variable: "--font-lexend",
