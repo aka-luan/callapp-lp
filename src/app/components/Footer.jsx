@@ -1,14 +1,16 @@
 import Image from 'next/image';
+
+import { IconBrandFacebook, IconBrandInstagram, IconBrandLinkedin, IconBrandX } from '@tabler/icons-react';
 export default function Footer() {
   return (
     <footer id='footer' className='container mx-auto pt-40 pb-5'>
       <div className='grid grid-cols-[2fr_1fr_1fr_1fr_1fr] mb-32  '>
         <div className='flex flex-col'>
           <Image
-            className='mb-7'
+            className='mb-14'
             src='/logo-dark.svg'
-            width={160}
-            height={105}
+            width={320}
+            height={210}
             alt='chatapp writen in light green'
           />
           <small className='opacity-60'>
@@ -124,7 +126,7 @@ export default function Footer() {
           <h3 className='mb-7'>Contact Us</h3>
           <ul className='flex flex-col gap-4'>
             <li className='opacity-60'>
-               <small>
+              <small>
                 <a
                   className='hover:border-b-2 border-foreground pb-1'
                   href='mailto:info@chatapp.com'>
@@ -154,7 +156,7 @@ export default function Footer() {
           </ul>
         </div>
       </div>
-      <div className='grid grid-cols-[2fr_3fr_1fr]'>
+      <div className='grid grid-cols-[2fr_3fr_1fr] items-center'>
         <small className='opacity-60'>© Copyright ChatApp Inc.</small>
         <ul className='flex gap-4'>
           <li className='opacity-60'>
@@ -196,16 +198,27 @@ export default function Footer() {
         </ul>
         <div className='flex items-center gap-4'>
           <a href='https://x.com' target='_blank'>
-            
+            <IconBrandX
+              className='text-green transition-transform duration-200 ease-in-out hover:scale-95'
+              size={32}
+            />
           </a>
-          <a  href='https://facebook.com' target='_blank'>
-            
+          <a href='https://facebook.com' target='_blank'>
+            <IconBrandFacebook
+              className='text-green transition-transform duration-200 ease-in-out hover:scale-95'
+              size={32}
+            />
           </a>
-          <a  href='https://linkedin.com' target='_blank'>
-            
-          </a>
-          <a  href='https://instagram.com' target='_blank'>
-            
+          <a href='https://linkedin.com' target='_blank'>
+          <IconBrandLinkedin
+              className='text-green transition-transform duration-200 ease-in-out hover:scale-95'
+              size={32}
+            /></a>
+          <a href='https://instagram.com' target='_blank'>
+          <IconBrandInstagram
+              className='text-green transition-transform duration-200 ease-in-out hover:scale-95'
+              size={32}
+            />
           </a>
         </div>
       </div>
