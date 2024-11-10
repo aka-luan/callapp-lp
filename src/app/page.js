@@ -12,7 +12,7 @@ export default function Home() {
           <div className='container flex mx-auto'>
             <div id='hero-text' className='flex flex-col flex-1'>
               <span className='h-[2px] w-16 bg-lightgreen opacity-60 mb-7'></span>
-              <h1 className='mb-7 font-medium'>
+              <h1 className='mb-7 font-medium text-3xl'>
                 Have your<br></br> best{' '}
                 <span className='text-purple'>chat</span>
               </h1>
@@ -32,7 +32,7 @@ export default function Home() {
         <section id='about' className='py-40 text-foreground'>
           <div className='container flex flex-col mx-auto justify-center '>
             <span className='h-[2px] w-16 bg-foreground opacity-60 mb-6 self-center'></span>
-            <h2 className='mb-5 font-medium text-center'>Instant Team Chats</h2>
+            <h2 className='mb-5 font-medium text-center text-2xl'>Instant Team Chats</h2>
             <p className='mb-5 font-light text-center w-1/2 self-center'>
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
               commodo ligula eget dolor. Aenean massa. Cum sociis natoque
@@ -57,8 +57,8 @@ export default function Home() {
             height={734}
             alt='two mans talking in an modern office with some people in the background working and talking'
           />
-          <div className='flex flex-col justify-center w-[450px]'>
-            <h2 className='mb-5 font-medium '>
+          <div className='flex flex-col justify-center w-1/3'>
+            <h2 className='mb-5 font-light text-3xl'>
               Perfect Solution for Small Businesses
             </h2>
             <p className='mb-10 font-light'>
@@ -76,7 +76,7 @@ export default function Home() {
                 height={28}
                 alt='five green stars'
               />
-              <small>
+              <small className='w-2/4'>
                 <b>5,200 businesses</b> use ChatApp and they rate it as{' '}
                 <b>5-stars.</b>
               </small>

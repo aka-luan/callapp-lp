@@ -8,6 +8,16 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    fontSize: {
+      sm: '0.8rem',
+      base: '1rem',
+      xl: '1.25rem',
+      '2xl': ['1.953rem', '55px'],
+      '3xl': ['3.815rem', {
+        lineHeight: '95px',
+        letterSpacing: '-1px'
+      }],
+    },
     extend: {
       screens: {
         sm: '480px',

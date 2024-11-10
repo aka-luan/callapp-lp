@@ -23,26 +23,3 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
-
-h1 {
-  font-size: 3.815rem;
-  line-height: 95px;
-  letter-spacing: -1px;
-}
-
-h2 {
-  line-height: 55px;
-  font-size: 1.953rem;
-}
-
-h3 {
-  font-size: 1.25rem;
-}
-
-p {
-  font-size: 1rem;
-}
-
-small {
-  font-size: 0.8rem;
-}
