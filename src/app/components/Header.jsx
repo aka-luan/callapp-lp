@@ -17,17 +17,17 @@ export default function Header() {
         <nav className='flex items-center'>
           <ul className='flex items-center gap-6 h-8'>
             <li>
-              <a href='#product' className='hover:border-b-2 border-lightgreen pb-1'>Product</a>
+              <a href='#product' className='underline-hover'>Product</a>
             </li>
             <li>
-              <a href='#product' className='hover:border-b-2 border-lightgreen pb-1'>Services</a>
+              <a href='#product' className='underline-hover'>Services</a>
             </li>
             <li>
-              <a href='#contact' className='hover:border-b-2 border-lightgreen pb-1'>Contact</a>
+              <a href='#contact' className='underline-hover'>Contact</a>
             </li>
             <span className='w-[2px] h-[inherit] bg-lightgreen opacity-60'></span>
             <li>
-              <a href='#contact' className='hover:border-b-2 border-lightgreen pb-1'>Log In</a>
+              <a href='#contact' className='underline-hover'>Log In</a>
             </li>
             <li>
               <Button type={'secondary1'} isNav={true}>Try it Free</Button>

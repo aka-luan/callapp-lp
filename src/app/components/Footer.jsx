@@ -23,7 +23,7 @@ export default function Footer() {
             <li className='opacity-60'>
               <small>
                 <a
-                  className='hover:border-b-2 border-foreground pb-1'
+                  className='underline-hover'
                   href='#footer'>
                   Support
                 </a>
@@ -32,7 +32,7 @@ export default function Footer() {
             <li className='opacity-60'>
               <small>
                 <a
-                  className='hover:border-b-2 border-foreground pb-1'
+                  className='underline-hover'
                   href='#footer'>
                   Knowledgebase
                 </a>
@@ -41,7 +41,7 @@ export default function Footer() {
             <li className='opacity-60'>
               <small>
                 <a
-                  className='hover:border-b-2 border-foreground pb-1 '
+                  className='underline-hover '
                   href='#footer'>
                   Tutorials
                 </a>
@@ -55,7 +55,7 @@ export default function Footer() {
             <li className='opacity-60'>
               <small>
                 <a
-                  className='hover:border-b-2 border-foreground pb-1'
+                  className='underline-hover'
                   href='#footer'>
                   Screen Sharing
                 </a>
@@ -64,7 +64,7 @@ export default function Footer() {
             <li className='opacity-60'>
               <small>
                 <a
-                  className='hover:border-b-2 border-foreground pb-1'
+                  className='underline-hover'
                   href='#footer'>
                   iOS & Android Apps
                 </a>
@@ -73,7 +73,7 @@ export default function Footer() {
             <li className='opacity-60'>
               <small>
                 <a
-                  className='hover:border-b-2 border-foreground pb-1 '
+                  className='underline-hover '
                   href='#footer'>
                   File Sharing
                 </a>
@@ -82,7 +82,7 @@ export default function Footer() {
             <li className='opacity-60'>
               <small>
                 <a
-                  className='hover:border-b-2 border-foreground pb-1 '
+                  className='underline-hover '
                   href='#footer'>
                   User Management
                 </a>
@@ -96,7 +96,7 @@ export default function Footer() {
             <li className='opacity-60'>
               <small>
                 <a
-                  className='hover:border-b-2 border-foreground pb-1'
+                  className='underline-hover'
                   href='#footer'>
                   About Us
                 </a>
@@ -105,7 +105,7 @@ export default function Footer() {
             <li className='opacity-60'>
               <small>
                 <a
-                  className='hover:border-b-2 border-foreground pb-1'
+                  className='underline-hover'
                   href='#footer'>
                   Careers
                 </a>
@@ -114,7 +114,7 @@ export default function Footer() {
             <li className='opacity-60'>
               <small>
                 <a
-                  className='hover:border-b-2 border-foreground pb-1 '
+                  className='underline-hover '
                   href='#footer'>
                   Contact Us
                 </a>
@@ -128,7 +128,7 @@ export default function Footer() {
             <li className='opacity-60'>
               <small>
                 <a
-                  className='hover:border-b-2 border-foreground pb-1'
+                  className='underline-hover'
                   href='mailto:info@chatapp.com'>
                   info@chatapp.com
                 </a>
@@ -137,7 +137,7 @@ export default function Footer() {
             <li className='opacity-60'>
               <small>
                 <a
-                  className='hover:border-b-2 border-foreground pb-1'
+                  className='underline-hover'
                   href='#footer'>
                   1-800-200-300
                 </a>
@@ -146,7 +146,7 @@ export default function Footer() {
             <li className='opacity-60'>
               <small>
                 <a
-                  className='hover:border-b-2 border-foreground pb-1 '
+                  className='underline-hover '
                   href='https://maps.app.goo.gl/3yfF3t44uskiZUsU9'
                   target='_blank'>
                   3500 Deer Creek Rd Palo A
@@ -162,7 +162,7 @@ export default function Footer() {
           <li className='opacity-60'>
             <small>
               <a
-                className='hover:border-b-2 border-foreground pb-1'
+                className='underline-hover'
                 href='#footer'>
                 Terms of Service
               </a>
@@ -171,7 +171,7 @@ export default function Footer() {
           <li className='opacity-60'>
             <small>
               <a
-                className='hover:border-b-2 border-foreground pb-1'
+                className='underline-hover'
                 href='#footer'>
                 Privacy Policy
               </a>
@@ -180,7 +180,7 @@ export default function Footer() {
           <li className='opacity-60'>
             <small>
               <a
-                className='hover:border-b-2 border-foreground pb-1 '
+                className='underline-hover '
                 href='#footer'>
                 Partners & Affiliates
               </a>
@@ -189,7 +189,7 @@ export default function Footer() {
           <li className='opacity-60'>
             <small>
               <a
-                className='hover:border-b-2 border-foreground pb-1 '
+                className='underline-hover '
                 href='#footer'>
                 Sitemap
               </a>

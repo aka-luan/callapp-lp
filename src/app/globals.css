@@ -23,3 +23,22 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+a {
+  background: linear-gradient(0deg, currentColor, currentColor) no-repeat right bottom / 0 var(--bg-h);
+  transition: background-size 350ms;
+  --bg-h: 100%;
+}
+
+
+a.underline-hover:where(:hover, :focus-visible) {
+  background-size: 100% var(--bg-h);
+  background-position-x: left;
+}
+
+@layer utilities {  
+  .underline-hover {
+    padding-bottom: 0.25rem;
+    --bg-h: 2px;
+  }
+}
