@@ -18,6 +18,12 @@
   }
 }
 
+@media (min-width: 1024px) {
+  :root {
+    font-size: 18px;
+  }
+}
+
 @media (min-width: 1440px) {
   :root {
     font-size: 21px;

@@ -4,10 +4,10 @@ import { IconBrandFacebook, IconBrandInstagram, IconBrandLinkedin, IconBrandX } 
 export default function Footer() {
   return (
     <footer id='footer' className='container mx-auto pt-32 xl:pt-40  pb-5'>
-      <div className='grid grid-cols-[2fr_1fr_1fr_1fr_1fr] mb-32  '>
+      <div className='grid grid-cols-[2fr_1fr_1fr_1fr_1fr] mb-32 gap-4'>
         <div className='flex flex-col'>
           <Image
-            className='w-[220px] xl:w-[320px] mb-14'
+            className='md:w-[170px] lg:w-[220px] xl:w-[320px] mb-14'
             src='/logo-dark.svg'
             width={320}
             height={210}
@@ -156,7 +156,7 @@ export default function Footer() {
           </ul>
         </div>
       </div>
-      <div className='grid grid-cols-[2fr_3fr_1fr] items-center'>
+      <div className='grid grid-cols-[2fr_3fr_1fr] items-center gap-4'>
         <small className='opacity-60'>© Copyright ChatApp Inc.</small>
         <ul className='flex gap-4'>
           <li className='opacity-60'>

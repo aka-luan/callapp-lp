@@ -4,13 +4,13 @@ import Button from './Button';
 export default function Header() {
   return (
     <header className='bg-green text-lightgreen text-sm'>
-      <div className='flex px-12 justify-between'>
+      <div className='flex px-8 lg:px-12 justify-between'>
         <a href='#'>
           <Image
             src='/logo.svg'
             width={160}
             height={105}
-            className='w-[130px] xl:w-[160px]'
+            className='md:w-[100px] lg:w-[130px] xl:w-[160px]'
             alt='chatapp writen in light green'
           />
         </a>
