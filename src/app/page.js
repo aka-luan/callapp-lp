@@ -8,11 +8,11 @@ export default function Home() {
     <div className=''>
       <Header />
       <main>
-        <section id='hero' className='bg-green pb-40 pt-20 text-lightgreen'>
+        <section id='hero' className='bg-green pb-32 xl:pb-40 pt-20 text-lightgreen'>
           <div className='container flex mx-auto items-center'>
             <div id='hero-text' className='flex flex-col flex-1'>
               <span className='h-[2px] w-16 bg-lightgreen opacity-60 mb-7'></span>
-              <h1 className='mb-7 font-medium text-3xl'>
+              <h1 className='mb-7 font-medium lg:text-3xl'>
                 Have your<br></br> best{' '}
                 <span className='text-purple'>chat</span>
               </h1>
@@ -25,22 +25,23 @@ export default function Home() {
               </div>
             </div>
             <div id='hero-img flex-1'>
-              <Image src='/hero-img.png' width={600} height={600} />
+              <Image src='/hero-img.png' width={600} height={600} className='lg:w-[450px] lg:h-[450px] xl:w-[600px] xl:h-[600px]'/>
             </div>
           </div>
         </section>
-        <section id='about' className='py-40 text-foreground'>
+        <section id='about' className='py-32 xl:py-40 text-foreground'>
           <div className='container flex flex-col mx-auto justify-center '>
             <span className='h-[2px] w-16 bg-foreground opacity-60 mb-6 self-center'></span>
-            <h2 className='mb-5 font-medium text-center text-2xl'>Instant Team Chats</h2>
-            <p className='mb-5 font-light text-center w-1/2 self-center'>
+            <h2 className='mb-5 font-medium text-center xl:text-2xl'>Instant Team Chats</h2>
+            <p className='mb-10 font-light text-center w-1/2 self-center'>
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
               commodo ligula eget dolor. Aenean massa. Cum sociis natoque
               penatibus et magnis dis parturient montes, nascetur ridiculus mus.
               Donec quam felis, ultricies nec,
             </p>
+            <Button type={'secondary2'} className='mb-7 self-center'>LEARN MORE</Button>
             <Image
-              className='ml-[44px]'
+              className='xl:ml-[2.095238095238095rem]'
               src='/middle-section-img.png'
               width={1204}
               height={917}
@@ -50,15 +51,16 @@ export default function Home() {
         </section>
         <section
           id='cta'
-          className='py-40 px-12 bg-lightgreen text-foreground flex gap-24'>
+          className='py-32 xl:py-40 px-12 bg-lightgreen text-foreground flex gap-24'>
           <Image
             src='/cta-img.png'
             width={705}
             height={734}
+            className='w-[455px] xl:w-[705px]'
             alt='two mans talking in an modern office with some people in the background working and talking'
           />
           <div className='flex flex-col justify-center w-1/3'>
-            <h2 className='mb-5 font-light text-3xl leading-none'>
+            <h2 className='mb-5 font-light lg:text-2xl xl:text-3xl'>
               Perfect Solution for Small Businesses
             </h2>
             <p className='mb-10 font-light'>

@@ -3,11 +3,11 @@ import Image from 'next/image';
 import { IconBrandFacebook, IconBrandInstagram, IconBrandLinkedin, IconBrandX } from '@tabler/icons-react';
 export default function Footer() {
   return (
-    <footer id='footer' className='container mx-auto pt-40 pb-5'>
+    <footer id='footer' className='container mx-auto pt-32 xl:pt-40  pb-5'>
       <div className='grid grid-cols-[2fr_1fr_1fr_1fr_1fr] mb-32  '>
         <div className='flex flex-col'>
           <Image
-            className='mb-14'
+            className='w-[220px] xl:w-[320px] mb-14'
             src='/logo-dark.svg'
             width={320}
             height={210}
@@ -199,25 +199,25 @@ export default function Footer() {
         <div className='flex items-center gap-4'>
           <a href='https://x.com' target='_blank'>
             <IconBrandX
-              className='text-green transition-transform duration-200 ease-in-out hover:scale-95'
-              size={32}
+              className='text-green h-6 w-6 xl:h-8 xl:w-8 transition-transform duration-200 ease-in-out hover:scale-95'
+              
             />
           </a>
           <a href='https://facebook.com' target='_blank'>
             <IconBrandFacebook
-              className='text-green transition-transform duration-200 ease-in-out hover:scale-95'
-              size={32}
+              className='text-green h-6 w-6 xl:h-8 xl:w-8 transition-transform duration-200 ease-in-out hover:scale-95'
+              
             />
           </a>
           <a href='https://linkedin.com' target='_blank'>
           <IconBrandLinkedin
-              className='text-green transition-transform duration-200 ease-in-out hover:scale-95'
-              size={32}
+              className='text-green h-6 w-6 xl:h-8 xl:w-8 transition-transform duration-200 ease-in-out hover:scale-95'
+              
             /></a>
           <a href='https://instagram.com' target='_blank'>
           <IconBrandInstagram
-              className='text-green transition-transform duration-200 ease-in-out hover:scale-95'
-              size={32}
+              className='text-green h-6 w-6 xl:h-8 xl:w-8 transition-transform duration-200 ease-in-out hover:scale-95'
+              
             />
           </a>
         </div>

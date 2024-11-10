@@ -12,9 +12,9 @@ module.exports = {
       sm: '0.8rem',
       base: '1rem',
       xl: '1.25rem',
-      '2xl': ['1.953rem', '55px'],
+      '2xl': ['1.953rem', '2.625rem'],
       '3xl': ['3.815rem', {
-        lineHeight: '95px',
+        lineHeight: '4.525rem',
         letterSpacing: '-1px'
       }],
     },
@@ -40,6 +40,7 @@ module.exports = {
     container: {
       padding: {
         DEFAULT: '1rem',
+        lg: '3rem',
         xl: '5rem'
       },
     },
