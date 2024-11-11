@@ -36,6 +36,8 @@ export default function Home() {
                 width={600}
                 height={600}
                 className="md:w-[325px] lg:w-[400px] xl:h-[600px] xl:w-[600px]"
+                alt="two photos of smiling people, in the right of the first one and on the left of the second there's a 
+                chat balloon that says: 'Hey, Mike! How you doing?' and on the left of the second one it says 'Sup, Sam, I'm doing great!'"
               />
             </div>
           </div>
