@@ -3,11 +3,11 @@ import Image from 'next/image';
 import { IconBrandFacebook, IconBrandInstagram, IconBrandLinkedin, IconBrandX } from '@tabler/icons-react';
 export default function Footer() {
   return (
-    <footer id='footer' className='container mx-auto pt-32 xl:pt-40  pb-5'>
-      <div className='grid grid-cols-[2fr_1fr_1fr_1fr_1fr] mb-32 gap-4'>
-        <div className='flex flex-col'>
+    <footer id='footer' className='container mx-auto pt-24 md:pt-32 xl:pt-40  pb-5'>
+      <div className='grid grid-cols-[1fr_1fr] md:grid-cols-[2fr_1fr_1fr_1fr_1fr] mb-16 md:mb-32 gap-4 gap-y-8'>
+        <div className='flex flex-col col-span-2 md:col-span-1 mb-7 md:mb-0 '>
           <Image
-            className='md:w-[170px] lg:w-[220px] xl:w-[320px] mb-14'
+            className='w-[170px] lg:w-[220px] xl:w-[320px] mb-7 md:mb-14'
             src='/logo-dark.svg'
             width={320}
             height={210}
@@ -17,7 +17,7 @@ export default function Footer() {
             The last team chat you’ll ever need.
           </small>
         </div>
-        <div className='flex flex-col'>
+        <div className='flex flex-col col-span-1'>
           <h3 className='mb-7'>Help</h3>
           <ul className='flex flex-col gap-4'>
             <li className='opacity-60'>
@@ -49,7 +49,7 @@ export default function Footer() {
             </li>
           </ul>
         </div>
-        <div className='flex flex-col'>
+        <div className='flex flex-col col-span-1'>
           <h3 className='mb-7'>Features</h3>
           <ul className='flex flex-col gap-4'>
             <li className='opacity-60'>
@@ -156,9 +156,9 @@ export default function Footer() {
           </ul>
         </div>
       </div>
-      <div className='grid grid-cols-[2fr_3fr_1fr] items-center gap-4'>
+      <div className='grid md:grid-cols-[2fr_3fr_1fr] justify-items-center md:justify-items-start items-center gap-4'>
         <small className='opacity-60'>© Copyright ChatApp Inc.</small>
-        <ul className='flex gap-4'>
+        <ul className='flex gap-4 flex-wrap md:flex-nowrap place-content-center md:place-content-start'>
           <li className='opacity-60'>
             <small>
               <a
@@ -196,7 +196,7 @@ export default function Footer() {
             </small>
           </li>
         </ul>
-        <div className='flex items-center gap-4'>
+        <div className='flex items-center gap-4 '>
           <a href='https://x.com' target='_blank'>
             <IconBrandX
               className='text-green h-6 w-6 xl:h-8 xl:w-8 transition-transform duration-200 ease-in-out hover:scale-95'

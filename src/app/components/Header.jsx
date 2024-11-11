@@ -10,13 +10,13 @@ export default function Header() {
             src='/logo.svg'
             width={160}
             height={105}
-            className='md:w-[100px] lg:w-[130px] xl:w-[160px]'
+            className='w-[80px] md:w-[100px] lg:w-[130px] xl:w-[160px]'
             alt='chatapp writen in light green'
           />
         </a>
 
         <nav className='flex items-center'>
-          <ul className='flex items-center gap-6 h-8'>
+          <ul className='hidden md:flex items-center gap-6 h-8'>
             <li>
               <a href='#product' className='underline-hover'>Product</a>
             </li>

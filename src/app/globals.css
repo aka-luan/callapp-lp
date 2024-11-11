@@ -8,13 +8,19 @@
   --green: #14504D;
   --lightgreen: #E2FFEA;
   --purple: #CAC5FF;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #242424;
     --foreground: #ededed;
+  }
+}
+
+@media (min-width: 335px) {
+  :root {
+    font-size: 16px;
   }
 }
 

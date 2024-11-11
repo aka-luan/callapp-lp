@@ -14,7 +14,7 @@ export default function Button({
       'bg-transparent text-foreground border-foreground',
   };
 
-  const sizeClasses = isNav ? 'md:py-2 md:px-6 lg:py-2 lg:px-7' : 'md:py-2 md:px-6 lg:py-3 lg:px-7';
+  const sizeClasses = isNav ? 'py-2 px-6 lg:py-2 lg:px-7' : 'py-2 px-6 lg:py-3 lg:px-7';
 
   return (
     <button
