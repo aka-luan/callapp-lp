@@ -68,7 +68,7 @@ export default function Home() {
         </section>
         <section
           id="cta"
-          className="flex flex-col-reverse gap-12 bg-lightgreen px-4 py-24 text-foreground md:flex-row md:px-8 md:py-32 lg:gap-24 lg:px-12 xl:py-40"
+          className="flex flex-col-reverse gap-12 bg-lightgreen px-4 py-24 text-foreground dark:text-background md:flex-row md:px-8 md:py-32 lg:gap-24 lg:px-12 xl:py-40"
         >
           <Image
             src="/cta-img.png"
@@ -77,8 +77,8 @@ export default function Home() {
             className="md:w-[350px] lg:w-[455px] xl:w-[705px]"
             alt="two mans talking in an modern office with some people in the background working and talking"
           />
-          <div className="flex flex-col items-center justify-center lg:w-1/3">
-            <h2 className="mb-3 text-center text-2xl font-light md:text-start lg:mb-5 xl:text-3xl">
+          <div className="flex flex-col items-center md:items-start justify-center lg:w-1/3">
+            <h2 className="mb-3 text-center text-2xl font-light md:text-start lg:mb-5 xl:text-3xl ">
               Perfect Solution for Small Businesses
             </h2>
             <p className="mb-7 font-light lg:mb-10">

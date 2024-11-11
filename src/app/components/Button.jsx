@@ -8,9 +8,9 @@ export default function Button({
 }) {
   const typeClasses = {
     primary1: "bg-lightgreen text-green border-lightgreen",
-    primary2: "bg-foreground text-lightgreen border-foreground",
-    secondary1: "bg-transparent text-lightgreen border-lightgreen",
-    secondary2: "bg-transparent text-foreground border-foreground",
+    primary2: "bg-foreground text-lightgreen border-foreground dark:text-lightgreen dark:border-background dark:bg-background",
+    secondary1: "bg-transparent text-lightgreen border-lightgreen dark:text-lightgreen",
+    secondary2: "bg-transparent text-foreground border-foreground dark:text-background dark:border-background",
   };
 
   const sizeClasses = isNav
