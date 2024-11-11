@@ -13,6 +13,7 @@ export default function HamburgerMenu() {
       <button
         onClick={toggleMenu}
         className="flex h-10 w-10 items-center justify-center text-lightgreen focus:outline-none"
+        aria-label="hamburguer menu button"
       >
         <div className="space-y-2">
           <span

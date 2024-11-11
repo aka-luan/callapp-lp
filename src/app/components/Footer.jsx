@@ -174,16 +174,16 @@ export default function Footer() {
           </li>
         </ul>
         <div className="flex items-center gap-4">
-          <a href="https://x.com" target="_blank">
+          <a href="https://x.com" target="_blank" aria-label="Follow us on X (formerly Twitter)">
             <IconBrandX className="h-6 w-6 text-green transition-transform duration-200 ease-in-out hover:scale-95 xl:h-8 xl:w-8" />
           </a>
-          <a href="https://facebook.com" target="_blank">
+          <a href="https://facebook.com" target="_blank" aria-label="Visit our Facebook page">
             <IconBrandFacebook className="h-6 w-6 text-green transition-transform duration-200 ease-in-out hover:scale-95 xl:h-8 xl:w-8" />
           </a>
-          <a href="https://linkedin.com" target="_blank">
+          <a href="https://linkedin.com" target="_blank" aria-label="Connect with us on LinkedIn">
             <IconBrandLinkedin className="h-6 w-6 text-green transition-transform duration-200 ease-in-out hover:scale-95 xl:h-8 xl:w-8" />
           </a>
-          <a href="https://instagram.com" target="_blank">
+          <a href="https://instagram.com" target="_blank" aria-label="Follow us on Instagram">
             <IconBrandInstagram className="h-6 w-6 text-green transition-transform duration-200 ease-in-out hover:scale-95 xl:h-8 xl:w-8" />
           </a>
         </div>
