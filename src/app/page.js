@@ -15,7 +15,7 @@ export default function Home() {
           <div className="container mx-auto flex flex-col items-center md:flex-row">
             <div
               id="hero-text"
-              className="md-mb-0 mb-10 flex flex-1 flex-col text-center md:text-start"
+              className="mb-14 flex flex-1 flex-col text-center md:mb-0 md:text-start"
             >
               <span className="mb-7 h-[2px] w-8 self-center bg-lightgreen opacity-60 md:w-16 md:self-start"></span>
               <h1 className="mb-7 text-3xl font-medium">
