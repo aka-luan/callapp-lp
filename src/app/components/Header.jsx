@@ -1,37 +1,47 @@
-import Image from 'next/image';
-import Button from './Button';
+import Image from "next/image";
+import Button from "./Button";
 
 export default function Header() {
   return (
-    <header className='bg-green text-lightgreen text-sm'>
-      <div className='flex px-8 lg:px-12 justify-between'>
-        <a href='#'>
+    <header className="bg-green text-sm text-lightgreen">
+      <div className="flex justify-between px-8 lg:px-12">
+        <a href="#">
           <Image
-            src='/logo.svg'
+            src="/logo.svg"
             width={160}
             height={105}
-            className='w-[80px] md:w-[100px] lg:w-[130px] xl:w-[160px]'
-            alt='chatapp writen in light green'
+            className="w-[100px] lg:w-[130px] xl:w-[160px]"
+            alt="chatapp writen in light green"
           />
         </a>
 
-        <nav className='flex items-center'>
-          <ul className='hidden md:flex items-center gap-6 h-8'>
+        <nav className="flex items-center">
+          <ul className="hidden h-8 items-center gap-6 md:flex">
             <li>
-              <a href='#product' className='underline-hover'>Product</a>
+              <a href="#product" className="underline-hover">
+                Product
+              </a>
             </li>
             <li>
-              <a href='#product' className='underline-hover'>Services</a>
+              <a href="#product" className="underline-hover">
+                Services
+              </a>
             </li>
             <li>
-              <a href='#contact' className='underline-hover'>Contact</a>
+              <a href="#contact" className="underline-hover">
+                Contact
+              </a>
             </li>
-            <span className='w-[2px] h-[inherit] bg-lightgreen opacity-60'></span>
+            <span className="h-[inherit] w-[2px] bg-lightgreen opacity-60"></span>
             <li>
-              <a href='#contact' className='underline-hover'>Log In</a>
+              <a href="#contact" className="underline-hover">
+                Log In
+              </a>
             </li>
             <li>
-              <Button type={'secondary1'} isNav={true}>Try it Free</Button>
+              <Button type={"secondary1"} isNav={true}>
+                Try it Free
+              </Button>
             </li>
           </ul>
         </nav>

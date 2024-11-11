@@ -5,9 +5,9 @@
 :root {
   --background: #ffffff;
   --foreground: #242424;
-  --green: #14504D;
-  --lightgreen: #E2FFEA;
-  --purple: #CAC5FF;
+  --green: #14504d;
+  --lightgreen: #e2ffea;
+  --purple: #cac5ff;
   font-size: 14px;
 }
 
@@ -36,7 +36,6 @@
   }
 }
 
-
 body {
   color: var(--foreground);
   background: var(--background);
@@ -44,18 +43,18 @@ body {
 }
 
 a {
-  background: linear-gradient(0deg, currentColor, currentColor) no-repeat right bottom / 0 var(--bg-h);
+  background: linear-gradient(0deg, currentColor, currentColor) no-repeat right
+    bottom / 0 var(--bg-h);
   transition: background-size 350ms;
   --bg-h: 100%;
 }
-
 
 a.underline-hover:where(:hover, :focus-visible) {
   background-size: 100% var(--bg-h);
   background-position-x: left;
 }
 
-@layer utilities {  
+@layer utilities {
   .underline-hover {
     padding-bottom: 0.25rem;
     --bg-h: 2px;
