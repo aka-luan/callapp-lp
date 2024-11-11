@@ -14,7 +14,7 @@ export default function Button({
   };
 
   const sizeClasses = isNav
-    ? "py-2 px-6 lg:py-2 lg:px-7"
+    ? "py-2 px-6 lg:py-2 lg:px-7  "
     : "py-2 px-6 lg:py-3 lg:px-7";
 
   return (

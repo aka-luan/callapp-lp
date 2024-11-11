@@ -1,5 +1,7 @@
+"use client";
 import Image from "next/image";
 import Button from "./Button";
+import HamburgerMenu from "./HamburguerMenu";
 
 export default function Header() {
   return (
@@ -16,6 +18,7 @@ export default function Header() {
         </a>
 
         <nav className="flex items-center">
+          <HamburgerMenu />
           <ul className="hidden h-8 items-center gap-6 md:flex">
             <li>
               <a href="#product" className="underline-hover">
