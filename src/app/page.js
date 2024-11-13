@@ -18,7 +18,7 @@ export default function Home() {
               className="mb-14 flex flex-1 flex-col text-center md:mb-0 md:text-start"
             >
               <span className="mb-7 h-[2px] w-8 self-center bg-lightgreen opacity-60 md:w-16 md:self-start"></span>
-              <h1 className="mb-7 text-3xl font-medium">
+              <h1 className="mb-7 text-4xl font-medium leading-[1.1] tracking-tighter">
                 Have your<br></br> best{" "}
                 <span className="text-purple">chat</span>
               </h1>
@@ -48,7 +48,7 @@ export default function Home() {
             <h2 className="mb-5 text-center text-2xl font-medium">
               Instant Team Chats
             </h2>
-            <p className="mb-10 w-3/4 self-center text-center font-light">
+            <p className="mb-10 w-3/4 md:w-1/2 self-center text-center font-light leading-7">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
               commodo ligula eget dolor. Aenean massa. Cum sociis natoque
               penatibus et magnis dis parturient montes, nascetur ridiculus mus.
@@ -78,7 +78,7 @@ export default function Home() {
             alt="two mans talking in an modern office with some people in the background working and talking"
           />
           <div className="flex flex-col items-center md:items-start justify-center lg:w-1/3">
-            <h2 className="mb-3 text-center text-2xl font-light md:text-start lg:mb-5 xl:text-3xl ">
+            <h2 className="mb-3 text-center text-2xl font-light md:text-start lg:mb-5 xl:text-3xl leading-none">
               Perfect Solution for Small Businesses
             </h2>
             <p className="mb-7 font-light lg:mb-10">

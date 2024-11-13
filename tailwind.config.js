@@ -13,13 +13,8 @@ module.exports = {
       base: "1rem",
       xl: "1.25rem",
       "2xl": ["1.953rem", "2.625rem"],
-      "3xl": [
-        "3.815rem",
-        {
-          lineHeight: "4.525rem",
-          letterSpacing: "-1px",
-        },
-      ],
+      "3xl": ["3.815rem"],
+      "4xl": "clamp(3.815rem, 7vw, 7rem)",
     },
     extend: {
       screens: {

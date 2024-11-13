@@ -30,12 +30,6 @@
   }
 }
 
-@media (min-width: 1440px) {
-  :root {
-    font-size: 21px;
-  }
-}
-
 body {
   color: var(--foreground);
   background: var(--background);
