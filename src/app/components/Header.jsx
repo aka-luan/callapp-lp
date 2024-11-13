@@ -12,7 +12,7 @@ export default function Header() {
             src="/logo.svg"
             width={160}
             height={105}
-            className="w-[100px] lg:w-[130px] xl:w-[160px]"
+            className="w-[130px] xl:w-[160px]"
             alt="chatapp writen in light green"
           />
         </a>
